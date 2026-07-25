@@ -30,7 +30,8 @@ export function Reveal({
   const ref = useRef<HTMLDivElement>(null);
   const inView = useInView(ref, { once: true, margin: "-80px" });
   const { x, y } = offset[direction];
-  const MotionTag = motion[as];
+  const MotionTag = motion[as] as typeof motion.div;
+
 
   return (
     <MotionTag
