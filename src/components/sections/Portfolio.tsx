@@ -3,7 +3,7 @@ import { useMemo, useState } from "react";
 import { ArrowUpRight, Calendar, ExternalLink, Github, Tag, User, X } from "lucide-react";
 import projectsData from "@/data/projects.json";
 import type { Project } from "@/types";
-import { Reveal, SectionShell } from "@/components/ui-kit/Reveal";
+import { SectionShell } from "@/components/ui-kit/Reveal";
 import { SectionHeading } from "@/components/ui-kit/SectionHeading";
 import { TiltCard } from "@/components/ui-kit/TiltCard";
 import { useI18n } from "@/hooks/use-i18n";
@@ -266,7 +266,6 @@ export function Portfolio() {
         )}
       </AnimatePresence>
 
-      <Reveal className="mt-4" />
     </SectionShell>
   );
 }
