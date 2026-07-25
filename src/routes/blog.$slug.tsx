@@ -94,7 +94,7 @@ function BlogPost() {
           />
 
           <div className="mt-8 space-y-5 text-base leading-relaxed text-muted-foreground">
-            {post.content.map((paragraph, i) => (
+            {post.content.map((paragraph: { es: string; en: string }, i: number) => (
               <p key={i}>{tl(paragraph)}</p>
             ))}
           </div>
