@@ -3,13 +3,13 @@
  * Edita aquí tus datos: nombre, contacto, redes y credenciales de EmailJS.
  */
 export const SITE = {
-  name: "Tu Nombre",
-  initials: "TN",
+  name: "Yeison Mayorga",
+  initials: "YM",
   role: "Full Stack Developer",
-  email: "hola@tudominio.com",
-  phone: "+57 300 000 0000",
+  email: "yeisonfa.2003@gmail.com",
+  phone: "+57 314 218 2069",
   /** Solo dígitos, con indicativo del país (para el enlace de WhatsApp). */
-  whatsapp: "573000000000",
+  whatsapp: "573142182069",
   location: "Colombia · Remoto / Worldwide",
   /** Cuando compres tu dominio, cámbialo aquí (sin slash final). */
   domain: "",
