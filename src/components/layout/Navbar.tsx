@@ -67,7 +67,7 @@ export function Navbar() {
             className="group flex items-center gap-3"
             aria-label={SITE.name}
           >
-            <span className="ring-gradient relative grid size-10 place-items-center rounded-xl bg-[var(--gradient-brand)] font-mono text-sm font-bold text-primary-foreground shadow-[var(--glow-primary)]">
+            <span className="ring-gradient relative grid size-10 place-items-center rounded-xl bg-[var(--gradient-brand)] font-mono text-sm font-bold shadow-[var(--glow-primary)]">
               {SITE.initials}
             </span>
             <span className="hidden text-sm leading-tight font-semibold sm:block">
@@ -135,7 +135,7 @@ export function Navbar() {
             </button>
             <a
               href="#contacto"
-              className="hidden rounded-xl bg-[var(--gradient-brand)] px-4 py-2.5 text-sm font-semibold text-primary-foreground shadow-[var(--glow-primary)] transition-transform hover:scale-105 md:inline-flex"
+              className="hidden rounded-xl bg-[var(--gradient-brand)] px-4 py-2.5 text-sm font-semibold shadow-[var(--glow-primary)] transition-transform hover:scale-105 md:inline-flex"
             >
               {t("nav.cta")}
             </a>
@@ -177,7 +177,7 @@ export function Navbar() {
                     to="/"
                     hash="contacto"
                     onClick={() => setOpen(false)}
-                    className="mt-1 block rounded-xl bg-[var(--gradient-brand)] px-4 py-3 text-center text-sm font-semibold text-primary-foreground"
+                    className="mt-1 block rounded-xl bg-[var(--gradient-brand)] px-4 py-3 text-center text-sm font-semibold"
                   >
                     {t("nav.cta")}
                   </Link>

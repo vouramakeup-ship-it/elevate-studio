@@ -111,7 +111,7 @@ export function Contact() {
               href={whatsappLink(t("wa.default"))}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex min-h-12 items-center justify-center gap-2 rounded-xl bg-[var(--gradient-brand)] px-5 text-sm font-semibold text-primary-foreground shadow-[var(--glow-primary)] transition-transform hover:scale-[1.02]"
+              className="inline-flex min-h-12 items-center justify-center gap-2 rounded-xl bg-[var(--gradient-brand)] px-5 text-sm font-semibold shadow-[var(--glow-primary)] transition-transform hover:scale-[1.02]"
             >
               <MessageCircle className="size-4" aria-hidden />
               {t("contact.whatsapp")}
@@ -184,7 +184,7 @@ export function Contact() {
               disabled={status === "sending"}
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
-              className="mt-6 inline-flex min-h-12 w-full items-center justify-center gap-2 rounded-xl bg-[var(--gradient-brand)] px-6 text-sm font-semibold text-primary-foreground shadow-[var(--glow-primary)] disabled:opacity-70"
+              className="mt-6 inline-flex min-h-12 w-full items-center justify-center gap-2 rounded-xl bg-[var(--gradient-brand)] px-6 text-sm font-semibold shadow-[var(--glow-primary)] disabled:opacity-70"
             >
               <Send className="size-4" aria-hidden />
               {status === "sending" ? t("contact.sending") : t("contact.send")}

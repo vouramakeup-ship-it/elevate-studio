@@ -90,7 +90,7 @@ export function Hero() {
           >
             <a
               href="#portafolio"
-              className="group inline-flex min-h-12 items-center gap-2 rounded-xl bg-[var(--gradient-brand)] px-6 text-sm font-semibold text-primary-foreground shadow-[var(--glow-primary)] transition-transform duration-300 hover:scale-105"
+              className="group inline-flex min-h-12 items-center gap-2 rounded-xl bg-[var(--gradient-brand)] px-6 text-sm font-semibold shadow-[var(--glow-primary)] transition-transform duration-300 hover:scale-105"
             >
               <Sparkles className="size-4" aria-hidden />
               {t("hero.cta1")}

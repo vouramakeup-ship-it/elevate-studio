@@ -1,0 +1,162 @@
+[
+  {
+    "id": "foncepan",
+    "slug": "sistema-gestion-foncepan",
+    "title": "Sistema de Gestión FoncePan",
+    "category": "Software Empresarial",
+    "client": "FoncePan",
+    "date": "2025-03",
+    "status": "evolving",
+    "featured": true,
+    "image": "/images/projects/foncepan.png",
+    "gallery": [
+      "/images/projects/foncepan.png",
+      "/images/projects/home.png"
+    ],
+    "summary": {
+      "es": "Plataforma integral de gestión de producción, ventas y personal para una panadería.",
+      "en": "End-to-end production, sales and staff management platform for an industrial bakery."
+    },
+    "description": {
+      "es": "Sistema web que centraliza producción, inventario de materia prima y ventas por punto. Incluye roles y permisos, un dashboard que muestra estadísticas en tiempo real de los movimientos de los productos y herramientas que optimizan la gestión operativa, mejorando significativamente el rendimiento de los procesos.",
+      "en": "Web system that centralizes production, raw-material inventory and per-store sales. It includes roles and permissions, a real-time dashboard with product movement statistics, and tools that streamline operational management, significantly improving process performance."
+    },
+    "tech": ["Html5", "Javascript", "CSS3", "PostgreSQL", "Supabase", "TailwindCSS"],
+    "github": "",
+    "demo": ""
+  },
+  {
+    "id": "inventario",
+    "slug": "sistema-de-inventario",
+    "title": "Sistema de Inventario Multi-bodega",
+    "category": "Sistemas de Inventario",
+    "client": "Distribuidora regional",
+    "date": "2025-01",
+    "status": "maintenance",
+    "featured": true,
+    "image": "/images/projects/inventario.jpg",
+    "gallery": ["/images/projects/inventario.jpg", "/images/projects/foncepan.jpg"],
+    "summary": {
+      "es": "Control de stock en tiempo real con lectura de código de barras y trazabilidad por bodega.",
+      "en": "Real-time stock control with barcode scanning and per-warehouse traceability."
+    },
+    "description": {
+      "es": "Aplicación con entradas, salidas, traslados entre bodegas, kardex, alertas de stock mínimo y reportes de rotación. Escanea códigos de barras desde el móvil y sincroniza con el panel web al instante.",
+      "en": "App with inbound, outbound and inter-warehouse transfers, kardex, minimum-stock alerts and turnover reports. Barcodes are scanned from mobile and sync instantly with the web dashboard."
+    },
+    "tech": ["React", "TypeScript", "Supabase", "PostgreSQL", "REST APIs"],
+    "github": "",
+    "demo": ""
+  },
+  {
+    "id": "whatsapp-api",
+    "slug": "integracion-whatsapp-business-api",
+    "title": "Integración WhatsApp Business API",
+    "category": "Integraciones / APIs",
+    "client": "Comercio retail",
+    "date": "2024-11",
+    "status": "completed",
+    "featured": true,
+    "image": "/images/projects/whatsapp.jpg",
+    "gallery": ["/images/projects/whatsapp.jpg"],
+    "summary": {
+      "es": "Atención automatizada, notificaciones y flujos conversacionales con la API oficial de Meta.",
+      "en": "Automated support, notifications and conversational flows with Meta's official API."
+    },
+    "description": {
+      "es": "Integración con WhatsApp Business API (Meta Developers) para enviar plantillas, recibir mensajes vía webhooks y enrutar conversaciones a agentes. Incluye respuestas automáticas, notificaciones de pedidos y métricas de atención.",
+      "en": "WhatsApp Business API (Meta Developers) integration to send templates, receive messages through webhooks and route conversations to agents. Includes auto-replies, order notifications and support metrics."
+    },
+    "tech": ["Node.js", "Webhooks", "Meta Developers", "PostgreSQL", "REST APIs"],
+    "github": "",
+    "demo": ""
+  },
+  {
+    "id": "landing-corporativa",
+    "slug": "landing-page-corporativa",
+    "title": "Landing Page Corporativa",
+    "category": "Landing Pages",
+    "client": "Consultora tecnológica",
+    "date": "2025-02",
+    "status": "completed",
+    "image": "/images/projects/landing.jpg",
+    "gallery": ["/images/projects/landing.jpg", "/images/projects/corporativo.jpg"],
+    "summary": {
+      "es": "Landing de alta conversión con animaciones, SEO técnico y puntaje Lighthouse superior a 95.",
+      "en": "High-conversion landing page with animations, technical SEO and a 95+ Lighthouse score."
+    },
+    "description": {
+      "es": "Diseño y desarrollo de una landing enfocada en generación de leads: mensaje claro, prueba social, formulario optimizado y analítica. Carga en menos de 1.5 s y está totalmente indexada.",
+      "en": "Design and development of a lead-generation landing page: clear messaging, social proof, optimized form and analytics. Loads in under 1.5s and is fully indexed."
+    },
+    "tech": ["React", "Vite", "TailwindCSS", "Framer Motion", "Vercel"],
+    "github": "",
+    "demo": ""
+  },
+  {
+    "id": "app-movil",
+    "slug": "aplicacion-movil-de-pedidos",
+    "title": "Aplicación Móvil de Pedidos",
+    "category": "Aplicaciones Móviles",
+    "client": "Cadena de distribución",
+    "date": "2024-08",
+    "status": "in-progress",
+    "image": "/images/projects/movil.jpg",
+    "gallery": ["/images/projects/movil.jpg"],
+    "summary": {
+      "es": "App para vendedores en calle con pedidos offline, rutas y sincronización automática.",
+      "en": "Field-sales app with offline orders, routes and automatic synchronization."
+    },
+    "description": {
+      "es": "Aplicación móvil para la fuerza de ventas: catálogo, creación de pedidos sin conexión, seguimiento de rutas, historial por cliente y sincronización con el ERP cuando vuelve la señal.",
+      "en": "Mobile app for the sales force: catalog, offline order creation, route tracking, per-client history and ERP synchronization when connectivity returns."
+    },
+    "tech": ["React", "TypeScript", "Supabase", "REST APIs"],
+    "github": "",
+    "demo": ""
+  },
+  {
+    "id": "app-escritorio",
+    "slug": "aplicacion-de-escritorio-pos",
+    "title": "Aplicación de Escritorio POS",
+    "category": "Aplicaciones de Escritorio",
+    "client": "Punto de venta local",
+    "date": "2024-05",
+    "status": "completed",
+    "image": "/images/projects/escritorio.jpg",
+    "gallery": ["/images/projects/escritorio.jpg"],
+    "summary": {
+      "es": "Punto de venta de escritorio con facturación, impresión térmica y operación sin internet.",
+      "en": "Desktop point of sale with invoicing, thermal printing and offline operation."
+    },
+    "description": {
+      "es": "Software de escritorio para facturación rápida con atajos de teclado, impresión de tickets, control de caja y respaldo automático de la base de datos local.",
+      "en": "Desktop software for fast invoicing with keyboard shortcuts, ticket printing, cash control and automatic local database backups."
+    },
+    "tech": ["TypeScript", "Node.js", "PostgreSQL"],
+    "github": "",
+    "demo": ""
+  },
+  {
+    "id": "sitios-empresariales",
+    "slug": "sitios-web-empresariales",
+    "title": "Sitios Web Empresariales",
+    "category": "Aplicaciones Web",
+    "client": "Varios clientes",
+    "date": "2023-2025",
+    "status": "maintenance",
+    "image": "/images/projects/corporativo.jpg",
+    "gallery": ["/images/projects/corporativo.jpg", "/images/projects/landing.jpg"],
+    "summary": {
+      "es": "Sitios corporativos rápidos, accesibles y optimizados para posicionamiento orgánico.",
+      "en": "Fast, accessible corporate websites optimized for organic search."
+    },
+    "description": {
+      "es": "Conjunto de sitios corporativos con gestor de contenido, blog, formularios integrados, SEO técnico y despliegue continuo. Cada entrega incluye capacitación y mantenimiento.",
+      "en": "A set of corporate websites with CMS, blog, integrated forms, technical SEO and continuous deployment. Each delivery includes training and maintenance."
+    },
+    "tech": ["React", "Vite", "TailwindCSS", "Hostinger", "Vercel", "Git"],
+    "github": "",
+    "demo": ""
+  }
+]

@@ -14,16 +14,16 @@ export const SITE = {
   /** Cuando compres tu dominio, cámbialo aquí (sin slash final). */
   domain: "",
   socials: {
-    github: "https://github.com/",
-    linkedin: "https://www.linkedin.com/",
-    instagram: "https://www.instagram.com/",
-    facebook: "https://www.facebook.com/",
+    github: "https://github.com/YeisonMayorga",
+    linkedin: "https://www.linkedin.com/in/yeison-fabi%C3%A1n-mayorga-gamboa-a333091b2/",
+    instagram: "https://www.instagram.com/yeisonmayorga03/",
+    facebook: "https://www.facebook.com/yeison.mayorga.727284/",
   },
   /** EmailJS — crea tu cuenta en emailjs.com y pega los IDs aquí. */
   emailjs: {
-    serviceId: "",
-    templateId: "",
-    publicKey: "",
+    serviceId: "service_5ssougl",
+    templateId: "template_xts0zjo",
+    publicKey: "FsqDsO1tntwVC3nxI",
   },
 } as const;
 

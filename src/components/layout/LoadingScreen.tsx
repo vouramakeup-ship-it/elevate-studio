@@ -28,7 +28,7 @@ export function LoadingScreen() {
               initial={{ scale: 0.85, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
               transition={{ duration: 0.5 }}
-              className="ring-gradient grid size-16 place-items-center rounded-2xl bg-[var(--gradient-brand)] font-mono text-lg font-bold text-primary-foreground shadow-[var(--glow-primary)]"
+              className="ring-gradient grid size-16 place-items-center rounded-2xl bg-[var(--gradient-brand)] font-mono text-lg font-bold text-white-black shadow-[var(--glow-primary)]"
             >
               {SITE.initials}
             </motion.span>

@@ -22,7 +22,7 @@ export function Services() {
           <Reveal as="li" key={service.id} delay={(i % 3) * 0.07} className="h-full">
             <TiltCard className="h-full rounded-2xl" intensity={6}>
               <article className="glass ring-gradient group flex h-full flex-col rounded-2xl p-6 transition-shadow duration-300 hover:shadow-[var(--shadow-lift)]">
-                <span className="mb-5 grid size-12 place-items-center rounded-xl bg-[var(--gradient-brand)] text-primary-foreground shadow-[var(--glow-primary)] transition-transform duration-300 group-hover:-translate-y-1 group-hover:rotate-3">
+                <span className="mb-5 grid size-12 place-items-center rounded-xl bg-[var(--gradient-brand)] text-cyan shadow-[var(--glow-primary)] transition-transform duration-300 group-hover:-translate-y-1 group-hover:rotate-3">
                   <service.icon className="size-5" aria-hidden />
                 </span>
                 <h3 className="text-lg font-semibold">{tl(service.title)}</h3>

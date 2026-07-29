@@ -6,8 +6,8 @@ import type { TranslationKey } from "@/locales/es";
 
 const stats: { icon: typeof Cpu; value: number; suffix: string; prefix: string; key: TranslationKey }[] = [
   { icon: Cpu, value: 15, suffix: "", prefix: "+", key: "stats.tech" },
-  { icon: FolderGit2, value: 20, suffix: "", prefix: "+", key: "stats.projects" },
-  { icon: Clock, value: 1000, suffix: "", prefix: "+", key: "stats.hours" },
+  { icon: FolderGit2, value: 10, suffix: "", prefix: "+", key: "stats.projects" },
+  { icon: Clock, value: 500, suffix: "", prefix: "+", key: "stats.hours" },
   { icon: HeartHandshake, value: 100, suffix: "%", prefix: "", key: "stats.commit" },
 ];
 

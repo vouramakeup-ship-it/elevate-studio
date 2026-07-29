@@ -50,7 +50,7 @@ export function Testimonials() {
               </div>
               <p className="text-lg leading-relaxed text-pretty sm:text-xl">“{tl(item.quote)}”</p>
               <footer className="mt-6 flex items-center gap-3">
-                <span className="grid size-11 place-items-center rounded-full bg-[var(--gradient-brand)] text-sm font-bold text-primary-foreground">
+                <span className="grid size-11 place-items-center rounded-full bg-[var(--gradient-brand)] text-sm font-bold text-cyan">
                   {item.name
                     .split(" ")
                     .map((n) => n[0])

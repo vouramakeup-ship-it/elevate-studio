@@ -15,6 +15,7 @@ const statusLabel: Record<string, { es: string; en: string }> = {
   completed: { es: "Completado", en: "Completed" },
   "in-progress": { es: "En desarrollo", en: "In progress" },
   maintenance: { es: "En mantenimiento", en: "Maintenance" },
+  evolving: { es: "En evolución", en: "Evolving" },
 };
 
 export function Portfolio() {
@@ -112,7 +113,7 @@ export function Portfolio() {
                     <div className="mt-5 flex flex-wrap items-center gap-2">
                       <button
                         onClick={() => open(project)}
-                        className="inline-flex min-h-10 items-center gap-1.5 rounded-xl bg-[var(--gradient-brand)] px-4 text-sm font-semibold text-primary-foreground transition-transform hover:scale-105"
+                        className="inline-flex min-h-10 items-center gap-1.5 rounded-xl bg-[var(--gradient-brand)] px-4 text-sm font-semibold text-cyan transition-transform hover:scale-105"
                       >
                         {t("portfolio.more")}
                         <ArrowUpRight className="size-4" aria-hidden />

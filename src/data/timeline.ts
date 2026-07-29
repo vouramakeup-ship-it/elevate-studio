@@ -14,17 +14,6 @@ export const timeline: TimelineItem[] = [
   {
     id: "t1",
     period: "2025 — " + "…",
-    role: { es: "Desarrollador Full Stack independiente", en: "Freelance Full Stack Developer" },
-    org: { es: "Clientes empresariales", en: "Enterprise clients" },
-    description: {
-      es: "Diseño y construcción de sistemas de gestión, integraciones con WhatsApp Business API y plataformas web para empresas de retail, distribución y servicios.",
-      en: "Design and delivery of management systems, WhatsApp Business API integrations and web platforms for retail, distribution and service companies.",
-    },
-    tags: ["React", "TypeScript", "Supabase", "PostgreSQL"],
-  },
-  {
-    id: "t2",
-    period: "2024 — 2025",
     role: { es: "Desarrollador de Software", en: "Software Developer" },
     org: { es: "Proyecto FoncePan", en: "FoncePan project" },
     description: {
@@ -34,8 +23,8 @@ export const timeline: TimelineItem[] = [
     tags: ["Node.js", "PostgreSQL", "REST APIs"],
   },
   {
-    id: "t3",
-    period: "2023 — 2024",
+    id: "t2",
+    period: "2024 — 2025",
     role: { es: "Desarrollador Web", en: "Web Developer" },
     org: { es: "Proyectos independientes", en: "Independent projects" },
     description: {
@@ -45,8 +34,8 @@ export const timeline: TimelineItem[] = [
     tags: ["Vite", "TailwindCSS", "Vercel", "Hostinger"],
   },
   {
-    id: "t4",
-    period: "2022 — 2023",
+    id: "t3",
+    period: "2023 — 2024",
     role: { es: "Inicio en desarrollo de software", en: "Getting started in software" },
     org: { es: "Formación y práctica", en: "Training and practice" },
     description: {

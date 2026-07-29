@@ -11,7 +11,7 @@ export interface FaqItem {
 export const testimonials: Testimonial[] = [
   {
     id: "ts1",
-    name: "María Restrepo",
+    name: "Brayan Chaparro",
     role: { es: "Gerente de Operaciones", en: "Operations Manager" },
     company: "FoncePan",
     rating: 5,
@@ -19,29 +19,7 @@ export const testimonials: Testimonial[] = [
       es: "Digitalizó por completo nuestra operación. Lo que antes tomaba horas en papel ahora se resuelve en minutos y con información confiable.",
       en: "He fully digitized our operation. What used to take hours on paper now takes minutes, with reliable data.",
     },
-  },
-  {
-    id: "ts2",
-    name: "Andrés Gómez",
-    role: { es: "Director Comercial", en: "Sales Director" },
-    company: "Distribuidora Regional",
-    rating: 5,
-    quote: {
-      es: "La integración con WhatsApp cambió nuestra atención al cliente. Respondemos automáticamente y cerramos más ventas sin ampliar el equipo.",
-      en: "The WhatsApp integration transformed our customer service. We reply automatically and close more sales without growing the team.",
-    },
-  },
-  {
-    id: "ts3",
-    name: "Laura Méndez",
-    role: { es: "Fundadora", en: "Founder" },
-    company: "Consultora Tecnológica",
-    rating: 5,
-    quote: {
-      es: "Profesional, puntual y muy claro explicando. El sitio quedó impecable y el rendimiento es excelente en todos los dispositivos.",
-      en: "Professional, punctual and very clear in his explanations. The site is flawless and performs great on every device.",
-    },
-  },
+  }
 ];
 
 /** Agrega nuevas preguntas aquí. */

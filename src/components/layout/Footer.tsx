@@ -13,7 +13,7 @@ export function Footer() {
         <div className="grid gap-10 md:grid-cols-[1.4fr_1fr_1fr]">
           <div className="space-y-4">
             <a href="#inicio" className="flex items-center gap-3">
-              <span className="grid size-10 place-items-center rounded-xl bg-[var(--gradient-brand)] font-mono text-sm font-bold text-primary-foreground">
+              <span className="grid size-10 place-items-center rounded-xl bg-[var(--gradient-brand)] font-mono text-sm font-bold text-white-black">
                 {SITE.initials}
               </span>
               <span className="text-sm font-semibold">{SITE.name}</span>
